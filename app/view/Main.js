@@ -34,6 +34,7 @@ Ext.define('IconTest.view.Main', {
                                     var me = this;
                                     var myTextField = Ext.ComponentQuery.query('MyTextField')[0];
 									console.log('bijay kanshi');
+									console.log('from my desktop');
                                     myTextField.onDeleteIconTap(me);
                                 }
                             }
